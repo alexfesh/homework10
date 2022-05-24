@@ -144,7 +144,7 @@ a {
   padding-top: 190px;
   padding-bottom: 190px;
   background-color: var(--color-brand);
-  background-image: url(/img/hero.png);
+  background-image: url(../img/hero.png);
   background-repeat: no-repeat;
   background-position: 60% 50%;
 }
@@ -255,7 +255,7 @@ a {
   max-width: 540px;
   padding: 40px 40px 35px 40px;
   background-color: var(--color-brand);
-  background-image: url(/img/mail.png);
+  background-image: url(../img/mail.png);
   background-repeat: no-repeat;
   background-position: 90% 50%;
 }
@@ -296,7 +296,7 @@ a {
   max-width: 540px;
   padding: 40px 40px 35px 40px;
   background-color: var(--color-brand);
-  background-image: url(/img/car.png);
+  background-image: url(../img/car.png);
   background-repeat: no-repeat;
   background-position: 90% 50%;
 }
