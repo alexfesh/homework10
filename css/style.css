@@ -139,10 +139,6 @@ a {
   color: var(--color-main-text);
 }
 
-.main {
-
-}
-
 .hero {
   min-height: 604px;
   padding-top: 190px;
@@ -227,7 +223,7 @@ a {
   font-size: 21px;
   line-height: 25px;
   letter-spacing: 0.05em;
-  color: var(--color-main-text)
+  color: var(--color-main-text);
 }
 
 .proposition__buy {
@@ -262,7 +258,7 @@ a {
   background-image: url(/img/mail.png);
   background-repeat: no-repeat;
   background-position: 90% 50%;
-  }
+}
 
 .bonus-item {
   max-width: 250px;
@@ -350,4 +346,152 @@ a {
   align-items: center;
   background-color: var(--bgcolor-main-body);
   padding: 1em;
+}
+
+.history__title {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--color-main-text);
+}
+
+.container--history {
+  display: flex;
+  column-gap: 25px;
+}
+
+.viewed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  background-color: var(--bgcolor-main-body);
+  padding: 25px;
+}
+
+.viewed__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-light-text);
+}
+
+.viewed__price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: var(--color-main-text);
+}
+
+.viewed__buy {
+  display: flex;
+  padding: 0.5em 1em;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 35px;
+  border-radius: 35px;
+  background-color: var(--color-brand);
+  color: var(--color-contrast-text);
+  line-height: 16px;
+  letter-spacing: 0.05em;
+}
+
+.popular {
+  background-color: var(--bgcolor-main-body);
+}
+
+.container--popular {
+  padding-top: 60px;
+  margin-bottom: 55px;
+  display: flex;
+  gap: 30px;
+}
+
+.popular-column {
+  flex-basis: 257px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.popular-column__title {
+  max-width: 100px;
+  padding-bottom: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140.62%;
+  color: var(--color-main-text);
+}
+
+.popular-column__list {
+  padding-top: 30px;
+  list-style: none;
+  border-top: 1px solid var(--bgcolor-block-body);
+}
+
+.popular-column__link {
+  font-size: 12px;
+  line-height: 28px;
+  color: #828282;
+}
+
+.container--line {
+  border-top: 1px solid var(--bgcolor-block-body);
+}
+
+.container--contacts {
+  min-height: 120px;
+  display: flex;
+  gap: 40px;
+  align-content: center;
+  justify-content: space-between;
+  background-color: var(--bgcolor-main-body);
+}
+
+.social {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  background: var(--bgcolor-main-body);
+  border: 2px solid var(--color-brand);
+  border-radius: 25px;
+}
+
+.copyright {
+  background-color: var(--bgcolor-block-body);
+}
+
+.container--copyright {
+  min-height: 60px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copy__title {
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+}
+
+.politics__link {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  color: #828282;
 }
